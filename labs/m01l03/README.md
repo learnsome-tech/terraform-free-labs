@@ -1,0 +1,21 @@
+# m01l03 · Installing Terraform And Meeting The CLI
+
+Module 1: Core Concepts And Context · lesson 1.3 · Free · [Open the lesson](https://learnsome.tech/learn/terraform-course/m01l03)
+
+**Goal:** You can install Terraform, confirm the version you are running, and use the two commands that cost nothing and catch most mistakes: format and validate.
+
+## Labs
+
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l03-01](m01l03-01/) | Three ways to install it, and which to pick | Read along |
+| [m01l03-02](m01l03-02/) | Confirm it is installed and know what you have | Graded |
+| [m01l03-03](m01l03-03/) | The command line surface, in one screen | Read along |
+| [m01l03-04](m01l03-04/) | A deliberately untidy configuration | Checker |
+| [m01l03-05](m01l03-05/) | Format it, and let the tool own the style | Graded |
+| [m01l03-06](m01l03-06/) | What formatting actually did | Graded |
+| [m01l03-07](m01l03-07/) | Validate, and read a real Terraform error | Graded |
+
+---
+
+[Course README](../../README.md) · [Infrastructure as Code with Terraform on LearnSome.tech](https://learnsome.tech/courses/terraform-course)

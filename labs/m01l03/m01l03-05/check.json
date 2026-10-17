@@ -1,0 +1,59 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "Format it, and let the tool own the style",
+  "mode": "graded",
+  "runner": "terraform",
+  "command": "terraform init; terraform fmt",
+  "main": "main.tf",
+  "files": [
+    "cmd.sh",
+    "main.tf"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "terraform",
+  "requires": [
+    "sh",
+    "terraform"
+  ],
+  "tool": "terraform",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "terraform init; terraform fmt"
+    },
+    {
+      "id": "init",
+      "label": "Init",
+      "line": "terraform init"
+    },
+    {
+      "id": "validate",
+      "label": "Validate",
+      "line": "terraform validate"
+    },
+    {
+      "id": "plan",
+      "label": "Plan",
+      "line": "terraform plan"
+    },
+    {
+      "id": "apply",
+      "label": "Apply",
+      "line": "terraform apply -auto-approve"
+    },
+    {
+      "id": "fmt",
+      "label": "Format check",
+      "line": "terraform fmt -check -diff"
+    },
+    {
+      "id": "output",
+      "label": "Output",
+      "line": "terraform apply -auto-approve && terraform output"
+    }
+  ],
+  "note": null
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Infrastructure as Code with Terraform labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "redhat.vscode-yaml",
+        "timonwong.shellcheck"
+      ]
+    }
+  }
+}

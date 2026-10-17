@@ -1,0 +1,27 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Which one is on this machine?",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash session.sh",
+  "main": "session.sh",
+  "files": [
+    "session.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "terraform",
+  "requires": [
+    "bash",
+    "terraform"
+  ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash session.sh"
+    }
+  ],
+  "note": null
+}

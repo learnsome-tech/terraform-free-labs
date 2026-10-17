@@ -1,0 +1,59 @@
+{
+  "lab": "m01l03-06",
+  "lesson": "m01l03",
+  "title": "What formatting actually did",
+  "mode": "graded",
+  "runner": "terraform",
+  "command": "terraform init; sh session.sh",
+  "main": "session.sh",
+  "files": [
+    "main.tf",
+    "session.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "terraform",
+  "requires": [
+    "sh",
+    "terraform"
+  ],
+  "tool": "terraform",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "terraform init; sh session.sh"
+    },
+    {
+      "id": "init",
+      "label": "Init",
+      "line": "terraform init"
+    },
+    {
+      "id": "validate",
+      "label": "Validate",
+      "line": "terraform validate"
+    },
+    {
+      "id": "plan",
+      "label": "Plan",
+      "line": "terraform plan"
+    },
+    {
+      "id": "apply",
+      "label": "Apply",
+      "line": "terraform apply -auto-approve"
+    },
+    {
+      "id": "fmt",
+      "label": "Format check",
+      "line": "terraform fmt -check -diff"
+    },
+    {
+      "id": "output",
+      "label": "Output",
+      "line": "terraform apply -auto-approve && terraform output"
+    }
+  ],
+  "note": null
+}
